@@ -45,7 +45,7 @@
 ###
 
 <div align="center">
-  <img width="1400" height="600" src="https://github.com/YuriGabrielR/basic-blog/assets/94508908/5e10ba3b-d054-42db-930d-2c7f3f20d581"  />
+  <img width="1400" height="500" src="https://github.com/YuriGabrielR/basic-blog/assets/94508908/5e10ba3b-d054-42db-930d-2c7f3f20d581"  />
 </div>
 
 ###
@@ -55,7 +55,7 @@
 ###
 
 <div align="center">
-  <img width="1400" height="600" src="https://github.com/YuriGabrielR/basic-blog/assets/94508908/1529d04d-5fcb-4c88-a170-69f5463519a1"  />
+  <img width="1400" height="500" src="https://github.com/YuriGabrielR/basic-blog/assets/94508908/1529d04d-5fcb-4c88-a170-69f5463519a1"  />
 </div>
 
 ###
@@ -65,7 +65,7 @@
 ###
 
 <div align="center">
-  <img width="1400" height="600" src="https://github.com/YuriGabrielR/basic-blog/assets/94508908/b8825d09-96fa-4144-a1e8-51b4b082e865" />
+  <img width="1400" height="500" src="https://github.com/YuriGabrielR/basic-blog/assets/94508908/b8825d09-96fa-4144-a1e8-51b4b082e865" />
 </div>
 
 ###
