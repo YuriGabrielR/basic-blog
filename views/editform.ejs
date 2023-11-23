@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/form.css">
+    <script src="https://kit.fontawesome.com/f3b59ce49d.js" ></script>
+    <title> Editar Post </title>
+</head>
+<body>
+    <%-include('./components/header.ejs') %>
+
+    <section>
+
+        <div class="formArea">
+
+            <div class="imageBackgroundForm">
+
+            </div>
+            
+            <div class="form">
+
+
+                <form method="post" action="/editar/<%= post.id%>">
+                    
+                    <span>
+                        <p> Título do Post </p>
+                    
+                        <input autocomplete="off" value="<%=post.titulo%>" name="new_titulo" required type="text">
+                    </span>
+                    
+                    <span>
+
+                    <p> Conteúdo </p>
+
+                    <textarea autocomplete="off" required name="new_conteudo"  cols="1" rows="10">
+                        <%= post.conteudo %>
+                    </textarea>    
+                    </span>
+        
+             
+                    <button type="submit">
+                        Salvar edição
+                    </button>
+
+
+                 </form>
+
+            </div>
+
+            
+
+        </div>
+
+
+      
+
+    </section>
+
+
+        
+</body>
+</html>

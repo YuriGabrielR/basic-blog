@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/form.css">
+    <script src="https://kit.fontawesome.com/f3b59ce49d.js" ></script>
+    <title> Novo post </title>
+</head>
+<body>
+    <%-include('./components/header.ejs') %>
+
+    <section>
+
+        <div class="formArea">
+
+            <div class="imageBackgroundForm">
+
+            </div>
+            
+            <div class="form">
+
+
+                <form method="post" action="/novopost">
+                    
+                    <span>
+                        <p> Título do Post </p>
+                    
+                        <input autocomplete="off" name="titulo" required type="text">
+                    </span>
+                    
+                    <span>
+
+                    <p> Conteúdo </p>
+
+                    <textarea autocomplete="off" required name="conteudo"  cols="30" rows="10">
+                    </textarea>    
+                    </span>
+        
+             
+                    <button type="submit">
+                        Postar
+                    </button>
+
+
+                 </form>
+
+            </div>
+
+            
+
+        </div>
+
+
+      
+
+    </section>
+
+
+        
+</body>
+</html>

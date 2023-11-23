@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap");
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
+  width: 100%;
+}
+section .formArea {
+  display: flex;
+  width: 740px;
+  height: 400px;
+  border: 1px solid rgb(222, 226, 230);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px 0px 50px -8px;
+  padding: 10px;
+}
+section .formArea .imageBackgroundForm {
+  background: url("../images/backgroundForm.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-right: 1px solid rgb(222, 226, 230);
+  width: 50%;
+  height: 100%;
+  background-color: green;
+}
+section .formArea .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+section .formArea .form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+}
+section .formArea .form form span {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0px;
+}
+section .formArea .form form span p {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(102, 104, 112, 0.5607843137);
+}
+section .formArea .form form span input {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid rgb(222, 226, 230);
+  border-radius: 10px;
+  height: 20px;
+  width: 100%;
+}
+section .formArea .form form span input:focus {
+  outline: none;
+}
+section .formArea .form form span textarea {
+  border: 1px solid rgb(222, 226, 230);
+  border-radius: 10px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  padding: 5px;
+  width: 100%;
+  resize: none;
+}
+section .formArea .form form span textarea:focus {
+  outline: none;
+}
+section .formArea .form form button {
+  cursor: pointer;
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #161825;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+section .formArea .form form button:hover {
+  background-color: pink;
+  color: rgb(97, 96, 96);
+}

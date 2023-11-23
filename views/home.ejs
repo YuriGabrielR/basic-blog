@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/home.css">
+  <script src="https://kit.fontawesome.com/f3b59ce49d.js" crossorigin="anonymous"></script>
+  <title> Meu Blog </title>
+</head>
+
+<body>
+
+  <%-include('./components/header.ejs') %>
+
+    <main>
+      <h2> <i class="fa-regular fa-heart"></i> Seus blogs </h2>
+
+      <ul>
+
+        <% posts.forEach(post=> {
+          %>
+            <li>
+              <h3>
+                <%= post.titulo %>
+              </h3>
+              <%= post.conteudo %>
+
+                <span>
+                     
+                  <a href="/editar/<%=post.id %>">
+                    <i class="fa-solid fa-pencil"></i>
+
+                  </a>
+
+
+
+
+                  <form method="post" action="/excluir">
+                    <input hidden type="text" value="<%=post.id %>" name="id">
+                      
+                    <button type="submit">
+                      <i class="fa-solid fa-trash-can"></i>                    
+                    </button>
+
+                  </form>
+
+               
+                 
+                </span>
+            </li>
+          <% 
+        });
+        %>
+
+
+    </main>
+
+</body>
+
+</html>
