@@ -23,7 +23,7 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" alt="sass logo"  />
   <img width="12" />
-  <img src="https://cdn.simpleicons.org/html5/E34F26" height="40" alt="html5 logo"  />
+  <img src="https://github.com/YuriGabrielR/basic-blog/assets/94508908/67ba76f9-2231-4188-96c9-8b653d63fbd6" height="40" alt="html5 logo"  />
 </div>
 
 ###
