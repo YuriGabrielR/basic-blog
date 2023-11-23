@@ -15,7 +15,7 @@ const Postagem = sequelize.define('posts', {
 
 }); 
 
-//o comando abaixo cria a tabela posts em seu banco de dados:
+//Descomente a linha de código abaixo para criar uma tabela em seu banco de dados, lembre de comentar a instrução posteriormente para que não execute a cada 
 // Postagem.sync({force:true}); 
 
 export {Postagem}; 
